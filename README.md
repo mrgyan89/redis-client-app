@@ -1,4 +1,10 @@
 # Go Lang client app to connect to redis or valkey server and get, set, patch entries using following APIs
+To Run the application:
+1. cd redis-client-app
+2. Update the Redis/Valkey redisConnectionString in file repository/repository.go
+3. Run the app using command ```go run main.go```
+
+**APIs**
 1. **POST /api/entries:** To add a new entry(key, value) on Redis/Valkey Server <br />
 Request Body:<br /> 
 ```
